@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/instinto.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+
+
+<body>
+
+    <div class="card">
+
+        <div class="title">
+            <h1> Pokédex </h1>
+        </div>
+
+        <div class="container">
+
+            <label class="titleSearch" for="search"> Nombre del pokémon:</label>
+            <input type="text" id="search" name="text" class="input" placeholder="Escribe aquí">
+            <button class="btnSearch"id="btnSearch"> Buscar </button>
+
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <div id="pokedex"></div>
+                </div>
+                <div class="flip-card-back">
+                    <div id="pokedex1"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
