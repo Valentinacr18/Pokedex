@@ -1,0 +1,171 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp6520410.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 25px;
+}
+
+.card {
+  --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+  width: 600px;
+  height: 700px;
+  padding: 5px;
+  border-radius: 1rem;
+  overflow: visible;
+  background: #f7ba2b;
+  background: var(--background);
+  position: relative;
+  z-index: 1;
+  margin-top: 0;
+  margin-left: 12%;
+}
+
+.card:hover {
+  color: #f7ba2b;
+  transition: color 1s;
+}
+
+.title{
+  display: flex;
+  position: relative;
+  top: 40px;
+  left: 140px;
+}
+
+.pokebola1 img{
+  width: 40px;
+}
+
+.pokebola2 img{
+  width: 40px;
+}
+
+.container{
+  margin-top: 8%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 2%;
+  margin-bottom: 4%;
+
+}
+
+.input {
+  text-align: center;
+  border-radius: 10px;
+  outline: 2px solid #FEBF00;
+  border: 0;
+  background-color: #e2e2e2;
+  outline-offset: 3px;
+  padding: 10px 1rem;
+  transition: 0.25s;
+  font-size: 20px;
+  margin-left: 31%;
+  margin-top: 4%;
+  margin-right: 35%;
+  font-family: 'Delicious Handrawn', cursive;
+}
+
+.input:focus {
+  outline-offset: 5px;
+  background-color: #fff
+}
+
+.btnSearch {
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(30deg, #c87f3b, #f7e64c);
+  border-radius: 20px;
+  background-size: 100% auto;
+  font-family: inherit;
+  font-size: 17px;
+  padding: 0.6em 1.5em;
+  margin-top: 4%;
+  margin-left: 37%;
+  width: 120px;
+  height: 50px;
+  font-size: 22px;
+}
+
+.btnSearch:hover {
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+  0% {
+    box-shadow: 0 0 0 0 #05bada66;
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(182, 141, 71, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
+}
+
+.titleSearch {
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 30px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 240px;
+  height: 330px;
+  perspective: 1000px;
+  font-family: sans-serif;
+  margin-left: 27%;
+  margin-top: 4%;
+  font-size: 20px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid coral;
+  border-radius: 1rem;
+}
+
+.flip-card-front {
+  background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
+      rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.812) 48%);
+  color: coral;
+}
+
+.flip-card-back {
+  background: linear-gradient(120deg, rgb(245, 244, 236) 30%, rgb(254, 236, 148) 88%,
+      rgb(249, 249, 249) 40%, rgb(250, 235, 123) 78%);
+  color: white;
+  transform: rotateY(180deg);
+}
