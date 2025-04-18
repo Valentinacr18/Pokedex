@@ -1,55 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
 
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/instinto.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Pokedex</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
-
 <body>
+  <div class="pokedex-container">
+  
+    <img src="/assets/pokedex.png" alt="Pokémon Logo" class="pokemon-logo" />
 
-    <div class="card">
-
-        <div class="title">
-            <div class="pokebola1">
-                <img src="assets\pokebola.png">
-            </div>
-            <div class="titlePokedex">
-                <h1> Pokédex </h1>
-            </div>
-            <div class="pokebola2">
-                <img src="assets\pokebola.png">
-            </div>
-        </div>
-
-        <div class="container">
-
-            <label class="titleSearch" for="search"> Nombre del pokémon:</label>
-            <input type="text" id="search" name="text" class="input" placeholder="Escribe aquí">
-            <button class="btnSearch" id="btnSearch"> Buscar </button>
-
-        </div>
-
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <div id="pokedex"></div>
-                </div>
-                <div class="flip-card-back">
-                    <div id="pokedex1"></div>
-                </div>
-            </div>
-        </div>
-
+    <div class="search-area">
+      <input type="text" id="search" placeholder="Search Pokémon...">
+      <div class="button-group">
+        <button id="btnSearch">Search</button>
+        <button id="btnViewAll" style="display: none;">View all</button>
+      </div>
     </div>
 
-    <script src="script.js"></script>
+    <div id="pokemon-list" class="pokemon-list">
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
 </body>
 
 </html>

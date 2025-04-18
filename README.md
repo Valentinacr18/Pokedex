@@ -1,4 +1,22 @@
-# pokedex.github.io
-Especificaciones Generales:
+# Pokédex Web App
 
-En esta Pokédex se debe digitar el número o nombre del pokémon que se desea encontrar. Después, has click en el boton "buscar", en la tarjeta de la parte inferior se encontrará el nombre, imagen, número, altura y entre otras caracteristicas. Si se comete algún error al digitar el nombre del pokémon o dicho pokémon no existe, se observará un mensaje que dice: No se encontró ningún Pokémon llamado:"x". También, al realizar click en el botón sin digitar algún carácter se mostrará lo siguiente: Error al buscar el Pokémon.
+This is a Pokédex built using **HTML**, **CSS**, and **JavaScript**, powered by the [PokéAPI](https://pokeapi.co/). It allows users to view the top 12 Pokémon and search for any Pokémon by name for detailed information.
+
+## 🔍 Features
+
+- Display of the first 12 Pokémon on page load
+- Search functionality to find Pokémon by name
+- Responsive card layout with hover effects
+- Detailed Pokémon card with dynamic color based on type
+- "View All" button to return to the main view
+
+## 📚 Resources and References
+
+- [PokéAPI](https://pokeapi.co/) - The official Pokémon API used to fetch data.
+- [MDN Web Docs](https://developer.mozilla.org/) - Great documentation for HTML, CSS, and JavaScript.
+- [CSS Tricks](https://css-tricks.com/) - Tips and techniques for CSS layouts and responsiveness.
+- [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Helpful for designing the layout of the Pokédex.
+- [Google Fonts](https://fonts.google.com/) - For custom font styling.
+- [ColorHexa](https://www.colorhexa.com/) - Useful for choosing and converting color codes.
+- [Responsive Design Principles](https://web.dev/learn/design/) - Helped make the Pokédex adapt to different screen sizes.
+- [JavaScript Event Handling](https://developer.mozilla.org/en-US/docs/Web/Events) - For implementing interactions like the search and hover effects.
