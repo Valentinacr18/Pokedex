@@ -10,6 +10,18 @@ This is a Pokédex built using **HTML**, **CSS**, and **JavaScript**, powered by
 - Detailed Pokémon card with dynamic color based on type
 - "View All" button to return to the main view
 
+## 🧩 Project structure
+
+```
+Pokedex/
+├── index.html   # Structure of the Pokédex page 
+├── style.css    # Global styling and responsive design
+├── README.md    # Project documentation
+└── assets/      # Logic to fetch Pokémon data and search
+    └── pokedex.png 
+
+```
+
 ## 📚 Resources and References
 
 - [PokéAPI](https://pokeapi.co/) - The official Pokémon API used to fetch data.
