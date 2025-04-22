@@ -10,6 +10,8 @@ This is a Pokédex built using **HTML**, **CSS**, and **JavaScript**, powered by
 - Detailed Pokémon card with dynamic color based on type
 - "View All" button to return to the main view
 
+---
+
 ## 🧩 Project structure
 
 ```
@@ -21,6 +23,7 @@ Pokedex/
     └── pokedex.png 
 
 ```
+---
 
 ## 📚 Resources and References
 
@@ -32,3 +35,17 @@ Pokedex/
 - [ColorHexa](https://www.colorhexa.com/) - Useful for choosing and converting color codes.
 - [Responsive Design Principles](https://web.dev/learn/design/) - Helped make the Pokédex adapt to different screen sizes.
 - [JavaScript Event Handling](https://developer.mozilla.org/en-US/docs/Web/Events) - For implementing interactions like the search and hover effects.
+
+---
+
+I made this project as part of my learning in web development, with the goal of practicing the consumption of public APIs and working with dynamic data. I chose to create a Pokédex because it is a fun, visual and very useful project to practice key concepts such as:
+
+- HTTP requests with JavaScript.
+
+- Manipulating the DOM dynamically.
+
+- Designing interactive cards to display information.
+
+
+### ✨ Watch how it works
+![Demo](./assets/demo.gif)
