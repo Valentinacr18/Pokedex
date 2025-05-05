@@ -28,7 +28,6 @@ Pokedex/
 ├── README.md    # Project documentation
 └── assets/      # Logic to fetch Pokémon data and search
     └── pokedex.png 
-
 ```
 ---
 
